@@ -1,0 +1,140 @@
+.navigation
+{
+	border-top: 20px;
+}
+
+li{
+	font-family: helvetica ;
+	list-style-type: none;
+	float: right;
+	display: flex;
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 1px solid ;
+	border-color: white;
+	transition: 0.7s ease;
+}
+
+a {
+	color:skyblue;
+	text-decoration: none;
+	border-color: white;
+}
+
+li a:hover {
+	background-color: pink;
+	color: white;
+	padding: 7px;
+	transition: 0.4s ease ;
+}
+
+textarea {
+	font-family: helvetica;
+}
+
+
+.contact  {
+	font-family: helvetica ;
+	list-style-type: none;
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 1px solid ;
+	border-color: white;
+
+	
+	color: skyblue;
+}
+
+.submit {
+	color: white;
+	background-color: pink;
+	border-radius: 5%;
+	padding: 0.5em 2em 0.5em 2em;
+}
+
+
+
+
+.emailsubject {
+	background-color: pink;
+	border-radius: 5%;
+	border-color: pink;
+
+}
+
+
+
+
+.phone:hover {
+
+	background-color: pink;
+	color: white;
+	padding: 8px;
+	transition: 0.4s ease ;
+
+}
+
+.logo {
+
+	height:40px; 
+	width:40px;
+	display:inline; 
+	margin:10px auto;
+	border-radius: 50%;
+	float: left;
+}
+
+.logo :hover {
+	height:60px;
+	width: 60px;
+	display: inline;
+	margin: 10px auto;
+	border-radius: 50%;
+	float:left;
+}
+
+
+
+
+* {
+	padding:0px;
+	margin:0px;
+}
+
+.emailmsg{
+	color: black;
+	font-family: helvetica;
+	width: 300px;
+
+}
+
+.emailmsg:hover{
+	color: white;
+}
+
+.goodbye{
+	color: black;
+	font-family: cursive;
+}
+
+
+.footer-bottom{
+
+	background-color: white;
+	font-family: helvetica;
+	color: black;
+}
+
+.footer{
+	background-color: pink;
+	color: white;
+	text-align: center;
+
+}
+.socials{
+
+	height:100px; 
+	width:100px;
+	display:inline;
+
+}

@@ -1,0 +1,139 @@
+li{
+	font-family: helvetica ;
+	list-style-type: none;
+	float: right;
+	display: inline-flex;
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 1px solid ;
+	border-color: white;
+	transition: 0.7s ease;
+}
+
+a {
+	color:skyblue;
+	text-decoration: none;
+	border-color: white;
+}
+
+li a:hover {
+	background-color: pink;
+	color: white;
+	padding: 7px;
+	transition: 0.4s ease ;
+}
+
+
+html body {
+	height:100%;
+	background-color: white;
+}
+
+.logo {
+
+	height:40px; 
+	width:40px;
+	display:inline; 
+	margin:10px auto;
+	border-radius: 50%;
+	float: left;
+}
+
+.logo: hover {
+	height:60px;
+	width: 60px;
+	display: inline;
+	margin: 10px auto;
+	border-radius: 50%;
+	float:left;
+}
+.navigation
+{
+	border-top: 20px;
+}
+
+.Welcome{
+	color: skyblue;
+	font-family: cursive;
+
+}
+
+
+.indexphoto {
+	height:300px; 
+	width:300px;
+	display:block; 
+	margin:30px auto;
+	border-radius: 50%;
+}
+
+.skills {
+	font-family: helvetica;
+	color: skyblue;
+	font-size: 1em; 
+}
+
+.skill:hover {
+
+	background-color: pink;
+	color: white;
+	padding: 7px;
+	transition: 0.4s ease ;
+
+}
+
+.workmessage {
+	font-family: helvetica;
+}
+
+.workmessage:hover {
+	background-color: pink;
+	color: white;
+	padding: 4px;
+	transition: 0.4s ease ;
+}
+
+
+.footer {
+	background-color: pink;
+	color: white;
+	text-align: center;
+
+}
+.socials , img {
+
+	height:100px; 
+	width:100px;
+	display:inline;
+
+}
+
+
+* {
+	padding:0px;
+	margin:0px;
+}
+
+.emailmsg {
+	color: black;
+	font-family: helvetica;
+	width: 300px;
+
+}
+
+.emailmsg:hover {
+	color: white;
+}
+
+.goodbye {
+	color: black;
+	font-family: cursive;
+}
+
+
+.footer-bottom {
+
+	background-color: white;
+	font-family: helvetica;
+	color: black;
+}
